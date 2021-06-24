@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <title>My name tag</title>
+    
 </head>
 
 <body>
@@ -18,22 +19,41 @@
     <main>
         <div class="name-tag">
 
-            <section class="top">
+            <section class="top" id="top-section">
 
                 <h1>Hello</h1>
                 <h2>my name is</h2>
 
             </section>
 
-            <section class="middle">Evon</section>
-            <section class="bottom"></section>
+            <section class="middle" id="myName">What's Your Name?</section>
+            <section class="bottom" id="bottom-section"></section>
 
         </div>
-
+   
     </main>
+   <br><br>
+    <div class="buttons-container">
+     <input type="text" id="myInput" value="   Enter some text....">
+    <button id="my-text-button">Change text</button>
+    <button id="my-color-button">Random color </button>
+    <br><br>
+    <div class="font-container">
+    <span>Font selection</span>
+    <select name="fonts" id="myFonts">
+        <option value="monospace">Monospace</option>
+        <option value="cursive">Cursive</option>
+        <option value="fantasy">Fantasy</option>
+        <option value="sans-serif">Sans-serif</option>
+      </select>
+
+      
+    </div>
+
+    
 
 
-
+<script  type="module" src="index.js"></script>
 </body>
 
 </html>
